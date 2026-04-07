@@ -8,10 +8,12 @@ This application allows admin to manage customers, orders, and view business ins
 ## 🚀 Features
 
 ### 🔐 Authentication
+
 - Admin login/logout using JWT
 - Secure routes with authentication
 
 ### 👥 Customers Management
+
 - Add new customers
 - View all customers
 - Search customers
@@ -19,6 +21,7 @@ This application allows admin to manage customers, orders, and view business ins
 - Delete customers
 
 ### 📦 Orders Management
+
 - Create orders for customers
 - View customer-wise orders
 - Update order status
@@ -26,6 +29,7 @@ This application allows admin to manage customers, orders, and view business ins
 - Search orders
 
 ### 📊 Dashboard
+
 - Total customers
 - Total orders
 - Total revenue
@@ -37,27 +41,31 @@ This application allows admin to manage customers, orders, and view business ins
 ## 🛠️ Tech Stack
 
 ### Frontend:
+
 - React.js
 - Tailwind CSS
 
 ### Backend:
+
 - Node.js
 - Express.js
 
 ### Database:
+
 - MongoDB (Mongoose)
 
 ### Other:
+
 - JWT Authentication
 - REST APIs
 
 ---
 
 ## 📁 Folder Structure
+
 Furniture-CRM/
 ├── backend/
 ├── frontend/
-
 
 ---
 
@@ -65,43 +73,33 @@ Furniture-CRM/
 
 ### 1️⃣ Clone the repository
 
-
 git clone https://github.com/YOUR-USERNAME/furniture-crm.git
-
 
 ---
 
 ### 2️⃣ Backend setup
 
-
 cd backend
 npm install
 
-
 Create a `.env` file in backend:
-
 
 PORT=5500
 MONGO_URI=your_mongodb_url
 ACCESS_TOKEN_SECRET=your_secret
 REFRESH_TOKEN_SECRET=your_secret
 
-
 Run backend:
 
-
 npm run dev
-
 
 ---
 
 ### 3️⃣ Frontend setup
 
-
 cd frontend
 npm install
 npm run dev
-
 
 ---
 
